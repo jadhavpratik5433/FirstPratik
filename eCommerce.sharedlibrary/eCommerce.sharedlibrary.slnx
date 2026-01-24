@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="../ECommercesWeb/Ecommerces.sherd/Ecommerces.sherd.csproj" />
+  <Project Path="ProductApi.Application/ProductApi.Application.csproj" />
+  <Project Path="ProductApi.Domain/ProductApi.Domain.csproj" />
+  <Project Path="ProductApi.Infrastructure/ProductApi.Infrastructure.csproj" />
+  <Project Path="ProductApi.Presentations/ProductApi.Presentations.csproj" />
+</Solution>
