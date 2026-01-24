@@ -1,4 +1,4 @@
-﻿namespace ProductApi.Infrastructure
+﻿namespace ProductApi.Presentation
 {
     public class Class1
     {

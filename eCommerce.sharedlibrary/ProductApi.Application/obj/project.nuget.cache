@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KdfZOUklEKA=",
+  "dgSpecHash": "eIsNnqb7GWY=",
   "success": true,
-  "projectFilePath": "D:\\Project\\FirstPratik\\eCommerce.sharedlibrary\\ProductApi.Infrastructure\\ProductApi.Infrastructure.csproj",
+  "projectFilePath": "D:\\Project\\FirstPratik\\eCommerce.sharedlibrary\\ProductApi.Application\\ProductApi.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\prati\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\prati\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

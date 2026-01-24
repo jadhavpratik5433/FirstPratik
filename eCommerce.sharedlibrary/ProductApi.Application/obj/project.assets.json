@@ -996,20 +996,6 @@
           "bin/placeholder/Ecommerces.sherd.dll": {}
         }
       },
-      "ProductApi.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "dependencies": {
-          "Ecommerces.sherd": "1.0.0",
-          "ProductApi.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ProductApi.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ProductApi.Application.dll": {}
-        }
-      },
       "ProductApi.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -2429,11 +2415,6 @@
       "path": "../../ECommercesWeb/Ecommerces.sherd/Ecommerces.sherd.csproj",
       "msbuildProject": "../../ECommercesWeb/Ecommerces.sherd/Ecommerces.sherd.csproj"
     },
-    "ProductApi.Application/1.0.0": {
-      "type": "project",
-      "path": "../ProductApi.Application/ProductApi.Application.csproj",
-      "msbuildProject": "../ProductApi.Application/ProductApi.Application.csproj"
-    },
     "ProductApi.Domain/1.0.0": {
       "type": "project",
       "path": "../ProductApi.Domain/ProductApi.Domain.csproj",
@@ -2442,7 +2423,8 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "ProductApi.Application >= 1.0.0"
+      "Ecommerces.sherd >= 1.0.0",
+      "ProductApi.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2452,11 +2434,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\FirstPratik\\eCommerce.sharedlibrary\\ProductApi.Infrastructure\\ProductApi.Infrastructure.csproj",
-      "projectName": "ProductApi.Infrastructure",
-      "projectPath": "D:\\Project\\FirstPratik\\eCommerce.sharedlibrary\\ProductApi.Infrastructure\\ProductApi.Infrastructure.csproj",
+      "projectUniqueName": "D:\\Project\\FirstPratik\\eCommerce.sharedlibrary\\ProductApi.Application\\ProductApi.Application.csproj",
+      "projectName": "ProductApi.Application",
+      "projectPath": "D:\\Project\\FirstPratik\\eCommerce.sharedlibrary\\ProductApi.Application\\ProductApi.Application.csproj",
       "packagesPath": "C:\\Users\\prati\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\FirstPratik\\eCommerce.sharedlibrary\\ProductApi.Infrastructure\\obj\\",
+      "outputPath": "D:\\Project\\FirstPratik\\eCommerce.sharedlibrary\\ProductApi.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2478,8 +2460,11 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "D:\\Project\\FirstPratik\\eCommerce.sharedlibrary\\ProductApi.Application\\ProductApi.Application.csproj": {
-              "projectPath": "D:\\Project\\FirstPratik\\eCommerce.sharedlibrary\\ProductApi.Application\\ProductApi.Application.csproj"
+            "D:\\Project\\FirstPratik\\eCommerce.sharedlibrary\\ProductApi.Domain\\ProductApi.Domain.csproj": {
+              "projectPath": "D:\\Project\\FirstPratik\\eCommerce.sharedlibrary\\ProductApi.Domain\\ProductApi.Domain.csproj"
+            },
+            "D:\\Project\\FirstPratik\\ECommercesWeb\\Ecommerces.sherd\\Ecommerces.sherd.csproj": {
+              "projectPath": "D:\\Project\\FirstPratik\\ECommercesWeb\\Ecommerces.sherd\\Ecommerces.sherd.csproj"
             }
           }
         }
