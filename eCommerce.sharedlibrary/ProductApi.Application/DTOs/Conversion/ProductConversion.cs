@@ -16,7 +16,14 @@ namespace ProductApi.Application.DTOs.Conversion
         };
         public static(ProductDto?, IEnumerable<ProductDto>?) FromEntity(Product product, IEnumerable<Product>? products)
         {
-
+            if(product is not null || products is null)
+            {
+                var singleProduct = new ProductDto
+                (product!.Id,
+                 product.Name!,
+                 product.Quantity,
+                 product.Price);
+            }
         }
     }
 }
