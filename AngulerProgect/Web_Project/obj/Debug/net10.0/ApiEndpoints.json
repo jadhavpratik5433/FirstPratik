@@ -27,8 +27,24 @@
   },
   {
     "ContainingType": "Web_Project.Controllers.ProductController",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/Product/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Web_Project.Controllers.ProductController",
     "Method": "UpdateProduct",
-    "RelativePath": "api/Product",
+    "RelativePath": "api/Product/UpdateProduct/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -36,6 +52,11 @@
       {
         "Name": "Products",
         "Type": "Web_Project.Model.Product",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

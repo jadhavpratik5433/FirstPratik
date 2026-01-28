@@ -41,12 +41,12 @@ namespace Web_Project.Controllers
                 return StatusCode(500, "An error occurred while retrieving products: " + ex.Message);
             }
         }
-        [HttpPut]
-        public IActionResult UpdateProduct(Product Products)
+        [HttpPut("UpdateProduct/{id}")]
+        public IActionResult UpdateProduct(Product Products, int id)
         {
             try
             {
-                var isrecord = _context.Products.Find(Products.Id);
+                var isrecord = _context.Products.SingleOrDefault(n => n.Id == id);
                 if (isrecord == null)
                 {
                     return NotFound("record not availble");
@@ -57,6 +57,25 @@ namespace Web_Project.Controllers
 
                 _context.SaveChanges();
                 return Ok("Product update successfuly");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "internal server error" + ex.Message);
+            }
+        }
+        [HttpDelete("{id}")]
+        public IActionResult DeleteProduct(int id)
+        {
+            try
+            {
+                var isrecord = _context.Products.SingleOrDefault(n => n.Id == id);
+                if (isrecord == null)
+                {
+                    return NotFound("record not availble");
+                }
+                _context.Products.Remove(isrecord);
+                _context.SaveChanges();
+                return Ok("Product delete successfuly");
             }
             catch (Exception ex)
             {
