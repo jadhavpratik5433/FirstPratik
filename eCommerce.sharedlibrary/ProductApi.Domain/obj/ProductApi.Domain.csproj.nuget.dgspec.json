@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\FirstPratik\\eCommerce.sharedlibrary\\ProductApi.Domain\\ProductApi.Domain.csproj": {}
+    "C:\\Users\\prati\\source\\repos\\FirstPratik\\eCommerce.sharedlibrary\\ProductApi.Domain\\ProductApi.Domain.csproj": {}
   },
   "projects": {
-    "D:\\Project\\FirstPratik\\eCommerce.sharedlibrary\\ProductApi.Domain\\ProductApi.Domain.csproj": {
+    "C:\\Users\\prati\\source\\repos\\FirstPratik\\eCommerce.sharedlibrary\\ProductApi.Domain\\ProductApi.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\FirstPratik\\eCommerce.sharedlibrary\\ProductApi.Domain\\ProductApi.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\prati\\source\\repos\\FirstPratik\\eCommerce.sharedlibrary\\ProductApi.Domain\\ProductApi.Domain.csproj",
         "projectName": "ProductApi.Domain",
-        "projectPath": "D:\\Project\\FirstPratik\\eCommerce.sharedlibrary\\ProductApi.Domain\\ProductApi.Domain.csproj",
+        "projectPath": "C:\\Users\\prati\\source\\repos\\FirstPratik\\eCommerce.sharedlibrary\\ProductApi.Domain\\ProductApi.Domain.csproj",
         "packagesPath": "C:\\Users\\prati\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\FirstPratik\\eCommerce.sharedlibrary\\ProductApi.Domain\\obj\\",
+        "outputPath": "C:\\Users\\prati\\source\\repos\\FirstPratik\\eCommerce.sharedlibrary\\ProductApi.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
